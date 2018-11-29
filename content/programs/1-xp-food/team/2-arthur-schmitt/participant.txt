@@ -1,0 +1,33 @@
+Leftright: 
+
+----
+
+Title: Arthur Schmitt
+
+----
+
+Company: thecamp
+
+----
+
+Companylink: http://thecamp.fr
+
+----
+
+Ln: http://linkedin.com/arthurschmitt
+
+----
+
+Tw: tart2000
+
+----
+
+Job: Lead POC studio
+
+----
+
+Role: Prototypage
+
+----
+
+Teamrole: equipe-support

@@ -1,0 +1,94 @@
+/* 
+/* 
+/*  custom.css
+/*
+/*  If not using Gulp and Sass, add your custom CSS below then include it
+/*  in your page by adding a reference to assets/css/custom.css in the head of each page.
+/*
+*/
+
+@font-face {
+	font-family: MarkProMed;
+    src: url(../fonts/MarkPro-Medium_ALt.otf);
+}
+blockquote {
+	border-left: 2px solid grey;
+	padding-left: 12px;
+}
+.container-fluid {
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+.capitalize {
+	text-transform: capitalize;
+}
+.flex-column > .nav-item > a.nav-link {
+	color: #495057;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 0px;
+}
+.tools a {
+	color: #495057;
+}
+.justify-left {
+	text-align: left;
+}
+hr.tiny {
+	margin: 1rem;
+}
+.col-left {
+	padding-top: 65px;
+}
+nav.navbar {
+	position: absolute;
+	width: 100%;
+	z-index: 10;
+}
+.navbar .dropdown-menu {
+	top: 60px;	
+	border-radius: 0px;
+}
+.sidebar-sticky {
+	margin-top: 0.5rem;
+}
+.sidebar-sticky p {
+	margin-bottom: 0px;
+}
+.col-right {
+	border-left: solid 1px #efefef;	
+}
+.step-circle.step-circle-sm {
+	width: 1.5rem;
+	height: 1.5rem;
+	line-height: 1.5rem;
+}
+@media (min-width: 768px) {
+	.col-left, .col-right {
+		height: 100%;
+		overflow-y: scroll;
+		padding-bottom: 3rem;
+		padding-top: 60px;
+	} 
+	.row-height {
+		height: 100vh;
+	}
+}
+@media (max-width: 768px) {
+	.nav-right {
+		
+	}
+	.nav-left {
+		display: none;
+	}
+}
+.people {
+	padding-top: 1.5rem;
+}
+.media-body>.h6 {
+	font-weight: 500;
+	color: #575a5d;
+}

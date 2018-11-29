@@ -1,0 +1,13 @@
+Nicename: Plouf plouf doc
+
+----
+
+Author: Michel
+
+----
+
+Creationdate: 2018-11-28
+
+----
+
+Filetype: production

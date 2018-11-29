@@ -1,0 +1,63 @@
+title: Program
+pages: 
+  template:
+    - phase
+    - team 
+    - documents
+  hide: true
+files: true
+  fields:
+    niceName: 
+      label: Nice name 
+      type: text 
+    author:
+      label: Author
+      type: text
+    creationDate:
+      label: Creation date
+      type: date
+      default: today
+    fileType: 
+      label: Type 
+      type: select 
+      options: 
+        communication: Communication 
+        template: Template 
+        production: Production 
+fields:
+  untruc: 
+    type: prevnext
+  title:
+    label: Title
+    type: text
+  icone:
+    label: Square icon
+    type: selector
+    mode: single
+    types:
+      - image
+  baseline: 
+    label: Baseline 
+    type: text 
+  mysubpagelist:
+    label: Phases
+    type:  subpagelist
+    filter: 
+      template: phase
+  other: 
+    label: Others 
+    type: subpagelist
+    filter: 
+      filterBy: template 
+      filterMethod: !=
+      filterValue: phase   
+  text:
+    label: Text
+    type:  textarea
+  sdgs: 
+    label: SDGs 
+    type: checkboxes
+    options: query 
+    query: 
+      page: sdgs 
+

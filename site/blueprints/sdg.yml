@@ -1,0 +1,12 @@
+title: SDG
+pages: false
+files: true
+fields:
+  leftright:
+    type: prevnext
+  title:
+    label: Title
+    type:  text
+  ink: 
+    label: Link 
+    type: url 

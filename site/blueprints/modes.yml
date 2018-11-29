@@ -1,0 +1,12 @@
+title: Modes
+pages: 
+  template: mode
+  hide: true
+files: false
+fields:
+  title:
+    label: Title
+    type:  text
+  mysubpagelist:
+    label: Modes
+    type:  subpagelist

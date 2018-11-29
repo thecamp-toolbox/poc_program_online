@@ -1,0 +1,12 @@
+title: Programs
+pages: 
+  template: program
+  hide: true
+files: true
+fields:
+  title:
+    label: Title
+    type:  text
+  mysubpagelist:
+    label: Programs
+    type:  subpagelist

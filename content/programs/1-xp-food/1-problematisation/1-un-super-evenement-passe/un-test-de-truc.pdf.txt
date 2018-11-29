@@ -1,0 +1,13 @@
+Nicename: Plouf plandjoz
+
+----
+
+Author: Arthur
+
+----
+
+Creationdate: 2018-11-28
+
+----
+
+Filetype: template

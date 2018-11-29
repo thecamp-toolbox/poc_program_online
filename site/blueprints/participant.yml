@@ -1,0 +1,41 @@
+title: Participant
+pages: false
+files: true
+fields:
+  leftright:
+    type: prevnext
+  title:
+    label: Name 
+    type:  text
+    width: 1/2
+  job: 
+    label: Job 
+    type: text 
+    width: 1/2 
+  role: 
+    label: Role on project 
+    type: text 
+    width: 1/2 
+  teamrole: 
+    label: Subteam 
+    type: select 
+    options: query 
+    query: 
+      page: roles 
+    width: 1/2
+  company: 
+    label: Company 
+    type: text 
+    width: 1/4 
+  companylink: 
+    label: Company URL 
+    type: url 
+    width: 1/4 
+  ln: 
+    label: linkedin
+    type: url 
+    width: 1/4 
+  tw: 
+    label: Twitter handle
+    type: text 
+    width: 1/4 

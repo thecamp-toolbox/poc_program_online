@@ -1,0 +1,12 @@
+title: Team roles
+pages: 
+  template: role
+  hide: true
+files: false
+fields:
+  title:
+    label: Title
+    type:  text
+  mysubpagelist:
+    label: Roles
+    type:  subpagelist

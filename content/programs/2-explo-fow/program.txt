@@ -1,0 +1,21 @@
+Untruc: 
+
+----
+
+Title: Explo FoW
+
+----
+
+Icone: fow.jpg
+
+----
+
+Baseline: Pour changer le monde, vous avez besoin d’un réseau !
+
+----
+
+Text: 
+
+----
+
+Sdgs: travail-decent-et-croissance-economique

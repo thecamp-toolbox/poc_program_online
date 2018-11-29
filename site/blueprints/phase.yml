@@ -1,0 +1,23 @@
+title: Phase
+pages: 
+  template: 
+    - beacon
+  hide: true
+files: true
+fields:
+  prevnext: 
+    type: prevnext
+  title:
+    label: Title
+    type:  text
+    width: 1/2
+  target: 
+    label: Target/end date
+    type: date
+    width: 1/2
+  text:
+    label: Text
+    type:  textarea
+  mysubpagelist:
+    label: Beacons
+    type:  subpagelist

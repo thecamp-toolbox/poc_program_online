@@ -1,0 +1,12 @@
+title: Mode
+pages: false
+files: true
+fields:
+  leftright:
+    type: prevnext
+  title:
+    label: Title
+    type:  text
+  fa: 
+    label: Font-Awesome
+    type: text 

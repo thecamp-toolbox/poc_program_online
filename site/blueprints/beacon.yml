@@ -1,0 +1,48 @@
+title: Beacon
+pages: false
+files: true
+  fields:
+    niceName: 
+      label: Nice name 
+      type: text 
+    author:
+      label: Author
+      type: text
+    creationDate:
+      label: Creation date
+      type: date
+      default: today
+    fileType: 
+      label: Type 
+      type: select 
+      options: 
+        communication: Communication 
+        template: Template 
+        production: Production 
+fields:
+  prevnext:
+    type: prevnext
+  title:
+    label: Title
+    type:  text
+  target: 
+    label: Target/end date
+    type: date
+    width: 1/2
+  format: 
+    label: Format 
+    type: select
+    options: query
+    query: 
+      page: modes
+    width: 1/2
+  text:
+    label: Text
+    type:  textarea
+  team: 
+    label: Participants 
+    type: checkboxes 
+    options: query 
+    query: 
+      page: ../../team
+      fetch: children

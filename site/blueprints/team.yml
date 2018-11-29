@@ -1,0 +1,12 @@
+title: Team
+pages: 
+  template: participant
+  hide: true
+files: false
+fields:
+  title:
+    label: Title
+    type:  text
+  mysubpagelist:
+    label: Participants
+    type:  subpagelist

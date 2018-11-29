@@ -1,0 +1,23 @@
+<?php if(!defined('KIRBY')) exit ?>
+
+title: Site
+pages: true
+files: true
+fields:
+  title:
+    label: Title
+    type:  text
+    help: Enter your business name.
+  description:
+    label: Description
+    type:  text
+    validate:
+      max: 160
+    help: Describe your business in 160 characters.
+  tags: 
+    label: Tags 
+    type: tags
+  googleanalytics:
+    label: Google Analytics
+    type:  text
+    help: Enter your UA-XXXXX-XX google analytics code.

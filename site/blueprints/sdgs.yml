@@ -1,0 +1,12 @@
+title: SDGs
+pages: 
+  template: sdg
+  hide: true
+files: false
+fields:
+  title:
+    label: Title
+    type:  text
+  mysubpagelist:
+    label: SDGs
+    type:  subpagelist

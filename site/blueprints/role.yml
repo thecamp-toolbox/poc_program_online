@@ -1,0 +1,14 @@
+title: Role
+pages: false
+files: true
+fields:
+  leftright:
+    type: prevnext
+  title:
+    label: Title
+    type:  text
+    width: 1/2
+  col: 
+    label: Color 
+    type: color 
+    width: 1/2
