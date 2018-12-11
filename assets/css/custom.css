@@ -1,5 +1,5 @@
-/* 
-/* 
+/*
+/*
 /*  custom.css
 /*
 /*  If not using Gulp and Sass, add your custom CSS below then include it
@@ -49,7 +49,7 @@ nav.navbar {
 	z-index: 10;
 }
 .navbar .dropdown-menu {
-	top: 60px;	
+	top: 60px;
 	border-radius: 0px;
 }
 .sidebar-sticky {
@@ -59,27 +59,39 @@ nav.navbar {
 	margin-bottom: 0px;
 }
 .col-right {
-	border-left: solid 1px #efefef;	
+	border-left: solid 1px #efefef;
 }
 .step-circle.step-circle-sm {
 	width: 1.5rem;
 	height: 1.5rem;
 	line-height: 1.5rem;
 }
+
+.card .avatar.avatar-sm {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.card .fa-download {
+	color: #6b757f;
+}
+
+/* RESPONSIVE CSS */
+
 @media (min-width: 768px) {
 	.col-left, .col-right {
 		height: 100%;
 		overflow-y: scroll;
 		padding-bottom: 3rem;
 		padding-top: 60px;
-	} 
+	}
 	.row-height {
 		height: 100vh;
 	}
 }
 @media (max-width: 768px) {
 	.nav-right {
-		
+
 	}
 	.nav-left {
 		display: none;
