@@ -5,7 +5,7 @@
 	<?php $team = $prog->children()->filterBy('template', 'team') ?>
 	<?php $projects = $prog->children()->filterBy('template', 'projects') ?>
 
-	
+
 	<?= snippet('top-nav', array('prog'=>$prog, 'team'=>$team, 'page'=>$page)) ?>
 
 	<div class="container-fluid bg-white">
@@ -29,15 +29,17 @@
 	                                    <div class="d-flex align-items-center">
 	                                        <span class="badge badge-success mr-3">On Track</span>
 	                                        <ul class="list-inline text-small d-inline-block">
-	                                            <li class="list-inline-item"><i class="fas fa-users mr-1"></i>10</li>
-	                                            <li class="list-inline-item"><i class="fas fa-calendar-alt mr-1"></i>6</li>
+																							<?php if (count($team->children()) > 0) : ?>
+	                                            	<li class="list-inline-item"><i class="fas fa-users mr-1"></i>	<?= count($team->children()); ?></li>
+																							<?php endif; ?>
+																							<li class="list-inline-item"><i class="fas fa-calendar-alt mr-1"></i>6</li>
 	                                            <?php if ($prog->sdgs() != '') : ?>
 	                                            	<li class="list-inline-item">
 	                                            		<i class="fas fa-globe mr-1"></i>
 							                       		<?php foreach ($prog->sdgs()->split() as $sdg) : ?>
 							                       			<?php $thesdg = page('sdgs')->children()->find($sdg) ?>
 							                       			<a href="<?= $thesdg->ink() ?>" target="_blank">
-									                       		ODD<?= $thesdg->num() ?> 
+									                       		ODD<?= $thesdg->num() ?>
 									                       	</a>
 									                    <?php endforeach ?>
 								                	</li>
@@ -83,14 +85,14 @@
 		                            </span>
 		                            <br>
 		                            <small class="text-muted">
-		                            	<?php e(isPhaseOver($phase), 'Fini', 'Objectif') ?> : 
+		                            	<?php e(isPhaseOver($phase), 'Fini', 'Objectif') ?> :
 		                            	<?php if ($phase->target() != '') {
-		                            		echo $phase->date('d/m/y','target'); 
+		                            		echo $phase->date('d/m/y','target');
 		                            	} else {
 		                            		echo 'TBD';
 		                            	} ?>
 		                            </small>
-		                         
+
 		                            <hr class="tiny">
 		                            <?php if ($phase->hasChildren()) : ?>
 			                            <small class="justify-left">
@@ -126,7 +128,7 @@
 		                        	<?= $prog->text()->kirbytext() ?>
 			                    </article>
 	                        </div>
-	                        
+
 	                        <!-- right sidebar -->
 	                        <div class="col-12 col-md-4 float-right">
 	                        	<!-- btn group old
@@ -162,7 +164,7 @@
 
 		                        <?php $docs = $prog->files()->limit(4) ?>
 		                        <?php snippet('docs-card', array('docs'=>$docs, 'prog'=>$prog)) ?>
-		                        
+
                     		</div>
                     	</div><!-- end row -->
                     </div><!-- end container -->
