@@ -34,15 +34,29 @@ fields:
   title:
     label: Title
     type: text
+  baseline:
+    label: Baseline
+    type: text
+  text:
+    label: Program description
+    type:  textarea
+  alert:
+    label: Alert to program members
+    type:  textarea
   icone:
-    label: Square icon
+    label: Program picture
     type: selector
     mode: single
     types:
       - image
-  baseline:
-    label: Baseline
-    type: text
+      
+  sdgs:
+    label: SDGs
+    type: multiselect
+    options: query
+    query:
+      page: sdgs
+
   mysubpagelist:
     label: Phases
     type:  subpagelist
@@ -55,12 +69,3 @@ fields:
       filterBy: template
       filterMethod: !=
       filterValue: phase
-  text:
-    label: Text
-    type:  textarea
-  sdgs:
-    label: SDGs
-    type: checkboxes
-    options: query
-    query:
-      page: sdgs
