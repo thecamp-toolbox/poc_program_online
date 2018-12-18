@@ -67,13 +67,18 @@ nav.navbar {
 	line-height: 1.5rem;
 }
 
-.card .avatar.avatar-sm {
+.docs-card .avatar.avatar-sm {
     width: 1.5rem;
     height: 1.5rem;
 }
 
-.card .fa-download {
-	color: #6b757f;
+.docs-card .fa-download {
+		color: #6b757f;
+		font-size: 14px;
+}
+
+.docs-card .text-muted {
+    font-size: 14px;
 }
 
 /* RESPONSIVE CSS */

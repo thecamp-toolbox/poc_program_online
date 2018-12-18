@@ -1,31 +1,35 @@
 title: Program
-pages: 
+pages:
   template:
     - phase
-    - team 
+    - team
     - documents
   hide: true
 files: true
   fields:
-    niceName: 
-      label: Nice name 
-      type: text 
+    niceName:
+      label: Nice name
+      type: text
     author:
       label: Author
-      type: text
+      type: select
+      options: query
+      query:
+        fetch: grandchildren
+        template: participant
     creationDate:
       label: Creation date
       type: date
       default: today
-    fileType: 
-      label: Type 
-      type: select 
-      options: 
-        communication: Communication 
-        template: Template 
-        production: Production 
+    fileType:
+      label: Type
+      type: select
+      options:
+        communication: Communication
+        template: Template
+        production: Production
 fields:
-  untruc: 
+  untruc:
     type: prevnext
   title:
     label: Title
@@ -36,28 +40,27 @@ fields:
     mode: single
     types:
       - image
-  baseline: 
-    label: Baseline 
-    type: text 
+  baseline:
+    label: Baseline
+    type: text
   mysubpagelist:
     label: Phases
     type:  subpagelist
-    filter: 
+    filter:
       template: phase
-  other: 
-    label: Others 
+  other:
+    label: Others
     type: subpagelist
-    filter: 
-      filterBy: template 
+    filter:
+      filterBy: template
       filterMethod: !=
-      filterValue: phase   
+      filterValue: phase
   text:
     label: Text
     type:  textarea
-  sdgs: 
-    label: SDGs 
+  sdgs:
+    label: SDGs
     type: checkboxes
-    options: query 
-    query: 
-      page: sdgs 
-
+    options: query
+    query:
+      page: sdgs

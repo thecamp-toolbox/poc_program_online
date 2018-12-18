@@ -27,3 +27,11 @@ Icone: food.jpg
 ----
 
 Sdgs: consommation-et-production-responsables
+
+----
+
+Alert: 
+
+THIS IS AN ALERT 
+Please go on this link: (link: google.fr text: link)
+And send an email to: (email: julienb@thecamp.fr text: test)

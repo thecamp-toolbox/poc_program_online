@@ -1,5 +1,5 @@
 <?php if ($docs != '') : ?>
- 	<div class="card">
+ 	<div class="card docs-card">
         <div class="card-header d-flex justify-content-between">
             <div>
                 <span class="h6">Documents (<?= $docs->count() ?>)</span>
