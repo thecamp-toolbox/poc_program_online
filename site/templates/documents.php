@@ -2,11 +2,10 @@
 
 	<?php $prog = getProg($page); ?>
 	<?php $phases = $prog->children()->filterBy('template', 'phase') ?>
-	<?php $team = $prog->children()->filterBy('template', 'team') ?>
+	<?php $team = $prog->children()->filterBy('template', 'team');	 ?>
 	<?php $projects = $prog->children()->filterBy('template', 'projects') ?>
 	<?php $documents = $prog->files() ?>
 
-	
 	<?= snippet('top-nav', array('prog'=>$prog, 'team'=>$team)) ?>
 
 	<div class="container-fluid bg-white">
@@ -15,7 +14,7 @@
 
         	<!-- content here -->
         	<div class="col-md-10 col-right">
-	            
+
 	            <section class="people">
                 <div class="container">
                     <div class="row">
@@ -79,7 +78,10 @@
 	                                            </a>
 	                                        </th>
 	                                        <td>
-	                                        	<?= $doc->author() ?>
+																						<?php
+																							$author = $team->children()->findBy('uid', $doc->author());
+																							if(!is_bool($author)) echo $author->title();
+																						?>
 	                                        </td>
 	                                        <td>
 	                                        	<?= $doc->date('d/m/y','creationDate') ?>
