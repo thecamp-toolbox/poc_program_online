@@ -112,7 +112,9 @@
 	                <!--end of container-->
 	            </section>
 	            <!--end of section-->
-							<?php if ($prog->alert()->kirbytext()) : ?>
+							<?php
+
+							 if (!empty($prog->alert()->kirbytext()->value)) : ?>
 									<section class="container bg-white space-sm flush-with-above ">
 		            	<div class="alert alert-primary d-flex justify-content-between align-items-center" role="alert">
                     <div class="col-md-1">
