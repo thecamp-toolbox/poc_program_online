@@ -10,7 +10,9 @@
 		<?= js('assets/js/smooth-scroll.polyfills.js') ?>
 		<?= js('assets/js/bootstrap.min.js') ?>
 		<?= js('assets/js/theme.min.js') ?>
+		<?= js('assets/js/masonry.min.js') ?>
         <?= js('assets/js/main.js') ?>
+
 
     </body>
 

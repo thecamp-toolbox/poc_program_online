@@ -1,11 +1,11 @@
 <?php snippet('header') ?>
 
-	<?php $prog = getProg($page); ?>
+	<?php $prog = getProg($page);?>
 	<?php $phases = $prog->children()->filterBy('template', 'phase') ?>
 	<?php $team = $prog->children()->filterBy('template', 'team') ?>
 	<?php $projects = $prog->children()->filterBy('template', 'projects') ?>
 
-	
+
 	<?= snippet('top-nav', array('prog'=>$prog, 'team'=>$team)) ?>
 
 	<div class="container-fluid bg-white">

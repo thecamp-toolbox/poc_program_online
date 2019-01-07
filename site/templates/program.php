@@ -58,7 +58,7 @@
 	            <!--end of section-->
 	            <section class="bg-white space-sm flush-with-above">
 	                <div class="container">
-	                    <div class="row mb-3">
+								     <div class="row mb-3">
 	                        <div class="col">
 	                            <div class="progress">
 	                            	<!-- Ajouter curseur -->

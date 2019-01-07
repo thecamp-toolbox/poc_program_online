@@ -46,12 +46,19 @@
                                     <a href="<?= $team->url() ?>" class="nav-link <?= isPageActive($team, $page) ?>">Équipe</a>
                                 </li>
                             <?php endif ?>
-                            <?php $docs = $prog->children()->filterBy('template','documents')->first() ?>
+                            <?php $docs = $prog->children()->filterBy('template','documents')->first();  ?>
                             <?php if ($docs != '') : ?>
                                 <li class="nav-item">
                                     <a href="<?= $docs->url() ?>" class="nav-link <?= isPageActive($docs, $page) ?>">Documents</a>
                                 </li>
                             <?php endif ?>
+                            <?php $library = $prog->children()->filterBy('template','library')->first();  ?>
+                            <?php if ($library != '') : ?>
+                                <li class="nav-item">
+                                    <a href="<?= $library->url() ?>" class="nav-link <?= isPageActive($library, $page) ?>">Librairie</a>
+                                </li>
+                            <?php endif ?>
+
                             <?php $projects = $prog->children()->filterBy('template','project') ?>
                             <?php if ($projects != '') : ?>
                                 <li class="nav-item">
@@ -60,7 +67,7 @@
                             <?php endif ?>
                         </ul>
 
-                        <!-- intégration dropdown profile 
+                        <!-- intégration dropdown profile
                         <ul class="navbar-nav">
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle dropdown-toggle-no-arrow p-lg-0" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

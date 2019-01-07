@@ -11,6 +11,11 @@
 	font-family: MarkProMed;
     src: url(../fonts/MarkPro-Medium_ALt.otf);
 }
+@font-face {
+	font-family: MarkProLight;
+    src: url(../fonts/MarkPro-Light_ALt.otf);
+}
+
 blockquote {
 	border-left: 2px solid grey;
 	padding-left: 12px;
@@ -91,6 +96,9 @@ nav.navbar {
 	 animation: ring 4s .7s ease-in-out infinite;
 	 transform-origin: 50% 4px;
 }
+
+
+
 @-webkit-keyframes ring {
 	 0% { -webkit-transform: rotateZ(0); }
 	 1% { -webkit-transform: rotateZ(30deg); }
@@ -200,4 +208,166 @@ nav.navbar {
 .media-body>.h6 {
 	font-weight: 500;
 	color: #575a5d;
+}
+
+/*
+	Library page
+*/
+
+h2.ly-item-title {
+    font-size: 15px !important;
+    margin: 12px 0 !important;
+}
+
+.ly-body {
+	font-family: Rubik !important;
+}
+
+.ly-emoji-buttons {
+    position: relative !important;
+    bottom: 0 !important;
+    max-height: fit-content !important;
+}
+.option_media img {
+	border-top-left-radius: 3px !important;
+	border-top-right-radius: 3px !important;
+}
+
+.ly-item-top.listly-clearfix {
+    padding-bottom: 0px !important;
+    max-height: fit-content !important;
+}
+
+.option_media.listly-hide-empty, .ly-item-top.listly-clearfix{
+    margin-bottom: 0 !important;
+}
+
+.listly-item {
+	border: 1px solid #dddfe2 !important;
+	border-radius: 3px !important;
+}
+.ly-emoji-voting.ly-tip {
+    display: none !important;
+}
+
+.item_footer {
+    padding: 0 10px !important;
+		padding-bottom: 5px !important;
+}
+
+.lboxpopup h2.lboxheader-title {
+    color: #FFF !important;
+}
+
+.ly-header {
+	display: none;
+}
+
+.listly-item[data-type="text"], .listly-item[data-type="profile"], .listly-item[data-type="place"], .listly-item[data-type="product"] {
+    display: none !important;
+}
+
+.grid-item {
+  float: left !important;
+}
+
+h2.ly-item-title a, h2.ly-item-title {
+    color: #495057 !important;
+}
+
+a.ly_external_link {
+	background: none !important;
+}
+
+.item_detail.listly-clearfix {
+    display: none;
+}
+
+.ly-emoji-button .ly-tip-span{
+	display: none !important;
+}
+
+div#listly-list-widget {
+    margin-top: 20px;
+}
+
+.ly-title-top {
+    max-height: none !important;
+    padding: 0px 15px !important;
+}
+
+
+button.ly-additem.listly-button.listly-expand {
+    float: left;
+}
+
+button.ly-additem.listly-button, button.ly-filter.listly-button {
+    display: inline-block;
+    float: left;
+    padding: 10px 14px !important;
+    font-size: 15px !important;
+    background: rgb(233, 235, 238)  !important;
+    height: auto !important;
+    margin-right: 15px !important;
+    /* border-left: none !important; */
+}
+
+span.value.ly-dim {
+    color: #333 !important;
+}
+
+.listly-item.grid-item {
+    margin-left: 40px !important;
+}
+
+input.ly-search-items {
+    padding: 10px 14px !important;
+    font-size: 15px !important;
+    /* margin-right: 15px !important; */
+    background: rgb(233, 235, 238) !important;
+    height: auto !important;
+    width: 200px !important;
+}
+
+i.ly-icon-search.ly-search-btn.ly-dim, i.ly-search-clear.ly-dim  {
+    font-size: 15px !important;
+    height: auto !important;
+    position: relative !important;
+    top: 0px !important;
+    right: 20px !important;
+}
+
+
+ul.listly-filter-taglist.no-bullet {
+    margin-top: 20px !important;
+}
+
+li.listly-filter-tagitem, .listly-filter-tagtext {
+    font-size: 17px !important;
+}
+
+span.listly-filter-tagcount {
+    font-size: 12px !important;
+}
+
+button.listly-filter-activetag.listly-button.listly-micro {
+    font-size: 15px !important;
+    margin-top: 15px;
+    padding: 5px 15px;
+    margin-bottom: 0px;
+}
+
+body #listly-list-widget .ly-list-tools .ly-tools .ly-tools-a .ly-filter.ly-active-tool {
+    border-left: none !important;
+}
+
+.listly-item.grid-item {
+    width: 20% !important;
+    float: left !important;
+    margin-bottom: 40px !important;
+}
+
+button.listly-filter-activetag.listly-button.listly-micro:hover {
+    color: #FFF !important;
+    background: #1a60a7 !important;
 }

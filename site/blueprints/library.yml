@@ -1,0 +1,8 @@
+title: Library
+pages: false
+files: true
+fields:
+  LibraryID:
+    label: Library ID
+    help: To generate a library page, please enter your list ID created on http://list.ly
+    type:  text

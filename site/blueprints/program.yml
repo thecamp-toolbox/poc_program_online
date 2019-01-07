@@ -4,6 +4,7 @@ pages:
     - phase
     - team
     - documents
+    - library
   hide: true
 files: true
   fields:
@@ -49,7 +50,7 @@ fields:
     mode: single
     types:
       - image
-      
+
   sdgs:
     label: SDGs
     type: multiselect
