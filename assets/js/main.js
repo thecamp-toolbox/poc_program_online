@@ -96,9 +96,6 @@ $( window ).on( "load", function() {
 						});
 					}
 			});
-
-
-
 });
 
 
@@ -108,6 +105,9 @@ $( window ).on( "load", function() {
 $(document).on('click', '.ly-additem', function(event) {
 
 	$(".lboxcontent iframe").on("load", function () {
+
+			$(".lboxcontent").prepend('<div class="alert alert-warning" role="alert">You can only add <b>link</b>, <b>video</b>, <b>photo</b> or <b>audio</b></div>')
+
 			$(".lboxpopup .close_lb").click(function(event) {
 						location.reload();
 			});

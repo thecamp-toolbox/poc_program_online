@@ -296,6 +296,14 @@ div#listly-list-widget {
     padding: 0px 15px !important;
 }
 
+body .lboxheader h2.lboxheader-title {
+    color: rgb(73, 80, 87) !important;
+}
+
+body .lboxheader  {
+    color: #FFF !important;
+}
+
 
 button.ly-additem.listly-button.listly-expand {
     float: left;
@@ -370,4 +378,13 @@ body #listly-list-widget .ly-list-tools .ly-tools .ly-tools-a .ly-filter.ly-acti
 button.listly-filter-activetag.listly-button.listly-micro:hover {
     color: #FFF !important;
     background: #1a60a7 !important;
+}
+
+
+h2.lboxheader-title {
+    background: #FFF !important;
+}
+
+.lboxheader {
+    background: #fff !important;
 }
