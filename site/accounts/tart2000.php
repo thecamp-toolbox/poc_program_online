@@ -7,8 +7,8 @@ email: arthur@thecamp.fr
 language: en
 role: admin
 history:
+  - programs/xp-food/team/nolwen-berthier
+  - programs/xp-food/team/pierrick-rousset
   - programs/xp-food
   - programs/xp-food/problematisation/un-super-evenement-passe
   - programs/xp-food/prototypes/des-super-protos
-  - programs/xp-food/problematisation/une-mission-a-distance
-  - modes/travail-de-groupe
