@@ -34,7 +34,10 @@
 		                                        <th scope="row">
 		                                            <div class="media align-items-center">
 		                                            	<?php if ($p->hasImages()) : ?>
-		                                                	<img alt="Image" src="<?= $p->images()->first()->url() ?>" class="avatar" />
+		                                            		<?php $image = $p->images()->first()->crop(100,100) ?>
+		                                                	<img alt="Image" src="<?= $image->url() ?>" class="avatar" />
+		                                                <?php else : ?>
+		                                                	<img alt="Image" src="<?= $site->url() ?>/assets/images/avatar.png" class="avatar" />
 		                                                <?php endif ?>
 		                                                <div class="media-body">
 		                                                    <span class="h6 mb-0"><?= $p->title() ?>

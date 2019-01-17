@@ -30,8 +30,8 @@
 	                                        <ul class="list-inline text-small d-inline-block">
 												<?php if (count($team->children()) > 0) : ?>
 	                                            	<li class="list-inline-item"><i class="fas fa-users mr-1"></i>	<?= count($team->children()); ?></li>
-																							<?php endif; ?>
-																							<li class="list-inline-item"><i class="fas fa-calendar-alt mr-1"></i>6</li>
+												<?php endif; ?>
+												<li class="list-inline-item"><i class="fas fa-calendar-alt mr-1"></i>6</li>
 	                                            <?php if ($prog->sdgs() != '') : ?>
 	                                            	<li class="list-inline-item">
 	                                            		<i class="fas fa-globe mr-1"></i>

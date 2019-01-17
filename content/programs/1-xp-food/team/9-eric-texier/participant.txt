@@ -1,0 +1,33 @@
+Leftright: 
+
+----
+
+Title: Eric Texier
+
+----
+
+Job: 
+
+----
+
+Role: Contributeur rang 1
+
+----
+
+Teamrole: equipe-projet
+
+----
+
+Company: Sodexo
+
+----
+
+Companylink: https://www.sodexo.com/home.html
+
+----
+
+Ln: 
+
+----
+
+Tw: 

@@ -30,4 +30,4 @@ Role: Program manager
 
 ----
 
-Teamrole: equipe-projet
+Teamrole: equipe-support

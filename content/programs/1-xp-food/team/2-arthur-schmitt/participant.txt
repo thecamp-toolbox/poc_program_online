@@ -22,11 +22,11 @@ Tw: tart2000
 
 ----
 
-Job: Lead POC studio
+Job: POC studio
 
 ----
 
-Role: Prototypage
+Role: Lead prototypage
 
 ----
 

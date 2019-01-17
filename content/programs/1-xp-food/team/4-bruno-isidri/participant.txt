@@ -1,0 +1,33 @@
+Leftright: 
+
+----
+
+Title: Bruno Isidri
+
+----
+
+Job: 
+
+----
+
+Role: Contributeur rang 1
+
+----
+
+Teamrole: equipe-projet
+
+----
+
+Company: Crédit Agricole
+
+----
+
+Companylink: https://www.ca-alpesprovence.fr/
+
+----
+
+Ln: 
+
+----
+
+Tw: 

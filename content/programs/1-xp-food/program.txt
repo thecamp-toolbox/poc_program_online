@@ -6,20 +6,24 @@ Title: xp food
 
 ----
 
-Baseline: Un lieu extraordinaire pour faire naitre des personnalités extraordinaires
+Baseline: Rapprocher consommateurs et producteurs locaux responsables.
 
 ----
 
 Text: 
 
-**Bold text**
-##Qu'est-ce que le Lorem Ipsum?
-Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.
+Réussir à nourrir tous les humains tout en préservant notre écosystème est sans conteste un enjeu majeur de notre génération et des suivantes. L’ensemble de la chaine agro-alimentaire est donc au centre des réflexions pour la construction des villes de demain.
+​​
+​​Les consommateurs veulent mieux manger et cette exigence répond à un double enjeu de santé publique et de protection de la planète. La région Sud PACA est en tête des régions françaises en terme de part des surfaces agricoles cultivées en bio : l’AB dépasse les 18% de la surface utile et près de 13% des fermes régionales sont en bio.
+​​
+​​Pourtant : 
 
-##Pourquoi l'utiliser?
-On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. De nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut, et une recherche pour 'Lorem Ipsum'. 
+- ​​90% de la production locale de fruits, légumes et olives est expédiée hors du territoire.
+- ​​50 à 70 % des émissions de gaz à effet de serre liés à nos aliments proviennent de l’étape de production agricole.
 
-> vous conduira vers de nombreux sites qui n'en sont encore qu'à leur phase de construction. Plusieurs versions sont apparues avec le temps, parfois par accident, souvent intentionnellement (histoire d'y rajouter de petits clins d'oeil, voire des phrases embarassantes).
+
+##​​Démarche
+​​L’expédition Food est un projet d’innovation animé par thecamp fédérant ses partenaires privés et publics, ayant pour objectif de rapprocher consommateurs et producteurs locaux responsables.
 
 ----
 
@@ -32,10 +36,6 @@ Sdgs: consommation-et-production-responsables
 ----
 
 Alert: 
-
-THIS IS AN ALERT 
-Please go on this link: (link: google.fr text: link)
-And send an email to: (email: julienb@thecamp.fr text: test)
 
 ----
 

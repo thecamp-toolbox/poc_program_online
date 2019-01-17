@@ -26,7 +26,10 @@
                     <li>
                         <a class="media" href="#">
                         	<?php if ($p->hasImages()) : ?>
-                                <img alt="Image" src="<?= $p->images()->first()->url() ?>" class="avatar avatar-sm mr-3" />
+                                <?php $image = $p->images()->first()->crop(100,100) ?>
+                                <img alt="Image" src="<?= $image->url() ?>" class="avatar avatar-sm mr-3" />
+                            <?php else : ?>
+                                <img alt="Image" src="<?= $site->url() ?>/assets/images/avatar.png" class="avatar avatar-sm mr-3" />
                             <?php endif ?>
                             <div class="media-body">
                                 <span class="h6 mb-0">
