@@ -29,10 +29,10 @@
 	                                    <div class="d-flex align-items-center">
 	                                        <span class="badge badge-success mr-3">On Track</span>
 	                                        <ul class="list-inline text-small d-inline-block">
-																							<?php if (count($team->children()) > 0) : ?>
+												<?php if (count($team->children()) > 0) : ?>
 	                                            	<li class="list-inline-item"><i class="fas fa-users mr-1"></i>	<?= count($team->children()); ?></li>
-																							<?php endif; ?>
-																							<li class="list-inline-item"><i class="fas fa-calendar-alt mr-1"></i>6</li>
+												<?php endif; ?>
+												<li class="list-inline-item"><i class="fas fa-calendar-alt mr-1"></i>6</li>
 	                                            <?php if ($prog->sdgs() != '') : ?>
 	                                            	<li class="list-inline-item">
 	                                            		<i class="fas fa-globe mr-1"></i>
@@ -58,20 +58,9 @@
 	            <!--end of section-->
 	            <section class="bg-white space-sm flush-with-above">
 	                <div class="container">
-								     <div class="row mb-3">
+						<div class="row mb-3">
 	                        <div class="col">
-	                            <div class="progress">
-	                            	<!-- Ajouter curseur -->
-	                            	<?php $count = 1 ?>
-	                            	<?php foreach ($phases as $phase) : ?>
-	                            		<?php if (isPhaseOver($phase)) : ?>
-	                            			<div class="progress-bar bg-success" role="progressbar" style="width:<?= 1/$phases->count()*100 ?>%" aria-valuenow="<?= 1/$phases->count()*100 ?>" aria-valuemin="0" aria-valuemax="100">
-			                            		100%
-											</div>
-	                            		<?php endif ?>
-	                            		<?php $count++ ?>
-	                            	<?php endforeach ?>
-	                            </div>
+	                        	<?php snippet('progress-bar', array('phases'=>$phases)) ?>
 	                        </div>
 	                        <!--end of col-->
 	                    </div>

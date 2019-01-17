@@ -3,7 +3,7 @@ pages:
   template: 
     - beacon
   hide: true
-files: true
+files: false
 fields:
   prevnext: 
     type: prevnext
@@ -15,9 +15,6 @@ fields:
     label: Target/end date
     type: date
     width: 1/2
-  text:
-    label: Text
-    type:  textarea
   mysubpagelist:
     label: Beacons
     type:  subpagelist
