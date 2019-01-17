@@ -2,7 +2,7 @@ Prevnext:
 
 ----
 
-Title: Des super protos
+Title: Affinage de la proposition de valeur
 
 ----
 
@@ -18,4 +18,4 @@ Text:
 
 ----
 
-Team: arthur-schmitt
+Team: bruno-isidri, damien-verdier, eric-texier

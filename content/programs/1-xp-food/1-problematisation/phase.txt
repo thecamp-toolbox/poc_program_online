@@ -6,4 +6,8 @@ Text:
 
 ----
 
-Target: 2018-11-01
+Target: 2018-07-02
+
+----
+
+Baseline: Constitution de la cordée

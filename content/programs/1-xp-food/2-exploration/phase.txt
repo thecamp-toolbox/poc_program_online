@@ -1,0 +1,13 @@
+Title: Exploration
+
+----
+
+Text: 
+
+----
+
+Target: 2018-09-28
+
+----
+
+Baseline: Méthode Océan Bleu
