@@ -40,3 +40,14 @@ And send an email to: (email: julienb@thecamp.fr text: test)
 ----
 
 Library: 2ehf
+
+----
+
+Toolbox: 
+
+- 
+  icon: dropbox
+  url: 'https://www.dropbox.com/home/Images%20%26%20videos%20-%20thecamp'
+- 
+  icon: slack
+  url: https://thecamp-team.slack.com/messages

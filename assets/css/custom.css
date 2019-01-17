@@ -388,3 +388,8 @@ h2.lboxheader-title {
 .lboxheader {
     background: #fff !important;
 }
+
+i.fab {
+    font-size: 25px;
+    padding: 10px 9px;
+}

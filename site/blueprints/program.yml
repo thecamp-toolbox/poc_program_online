@@ -63,6 +63,20 @@ fields:
     type:  subpagelist
     filter:
       template: phase
+
+  toolbox:
+      label: Tool Box
+      type: structure
+      fields:
+        icon:
+          label: Icon
+          help: Select your icone name on <a target="_blank" href="https://fontawesome.com/icons?d=gallery&m=free">this page</a>
+          type: text
+        url:
+          label: URL
+          type: url
+
+
   other:
     label: Others
     type: subpagelist
