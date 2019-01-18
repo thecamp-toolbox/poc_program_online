@@ -2,7 +2,8 @@
  	<div class="card docs-card">
         <div class="card-header d-flex justify-content-between">
             <div>
-                <span class="h6">Documents (<?= $docs->count() ?>)</span>
+              <?php $totaldocs = $page->files(); ?>
+                <span class="h6">Documents (<?= $totaldocs->count() ?>)</span>
             </div>
             <?php if ($prog->children()->filterBy('template','documents') != '') : ?>
 	            <a href="<?= $prog->url() ?>/documents">
