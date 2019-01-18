@@ -4,21 +4,25 @@
             <div>
                 <span class="h6">
                 	<?php if ($page->template() == 'program') : ?>
-                		Équipe (<?= count($team->children()) ?>) 
+                		Équipe (<?= count($team->children()) ?>)
                 	<?php else : ?>
-                		Participants (<?= count($team) ?>) 
+                		Participants (<?= count($team) ?>)
                 	<?php endif ?>
                 </span>
             </div>
             <?php $totalteam = $prog->children()->filterBy('template', 'team')->first() ?>
-            <?php if ($totalteam != '') : ?>
-                <a href="<?= $totalteam->url() ?>">
-                	<small>Voir tous &rsaquo;</small>
-                </a>
+
+            <?php if ($page->template() == 'program') : ?>
+              <?php if ($totalteam != '') : ?>
+                  <a href="<?= $totalteam->url() ?>">
+                  	<small>Voir tous &rsaquo;</small>
+                  </a>
+              <?php endif ?>
             <?php endif ?>
+
         </div>
         <div class="card-body">
-        	<?php if ($team->children() != '') : ?> 
+        	<?php if ($team->children() != '') : ?>
         		<?php $team = $team->children() ?>
         	<?php endif ?>
             <ul class="list-unstyled list-spacing-sm">
