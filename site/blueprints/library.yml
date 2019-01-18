@@ -4,5 +4,5 @@ files: true
 fields:
   LibraryID:
     label: Library ID
-    help: To generate a library page, please enter your list ID created on http://list.ly
+    help: To generate a library page, please enter your list ID created on <a href="http://list.ly">list.ly</a>
     type:  text

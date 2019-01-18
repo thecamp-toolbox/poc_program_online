@@ -85,9 +85,11 @@
 		                            <?php if ($phase->hasChildren()) : ?>
 			                            <small class="justify-left">
 			                            	<?php foreach ($phase->children() as $beacon) : ?>
-				                            	<a href="<?= $beacon->url() ?>">
-				                            		<i class="<?php e(isPhaseOver($beacon), 'fas fa-check', 'far fa-circle') ?> mr-1"></i><?= $beacon->title() ?><br>
-				                            	</a>
+																			<?php if ($beacon->template() == "beacon"): ?>
+					                            	<a href="<?= $beacon->url() ?>">
+					                            		<i class="<?php e(isPhaseOver($beacon), 'fas fa-check', 'far fa-circle') ?> mr-1"></i><?= $beacon->title() ?><br>
+					                            	</a>
+																			<?php endif; ?>
 				                            <?php endforeach ?>
 			                            </small>
 			                        <?php endif ?>

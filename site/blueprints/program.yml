@@ -4,7 +4,6 @@ pages:
     - phase
     - team
     - documents
-    - library
   hide: true
 files: true
   fields:
@@ -75,8 +74,7 @@ fields:
         url:
           label: URL
           type: url
-
-
+          
   other:
     label: Others
     type: subpagelist

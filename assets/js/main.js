@@ -2,8 +2,15 @@ $('.collapse').collapse();
 
 collapseList($('.list-head'));
 
-collapseList($('.list-head').first());
 
+
+$( document ).ready(function() {
+	if($('.sidebar-phase .active').length){
+		collapseList($('.sidebar-phase .active').parent().find(".list-head").first());
+	}
+});
+
+//to check to open the current page
 $('.list-head').click(function() {
 	collapseList($(this));
 });
@@ -48,7 +55,9 @@ function listFrontView () {
 //list.ly widget custom
 $( window ).on( "load", function() {
 
-		$(".ly-list-published").addClass("grid");
+		if($('#listly-list-widget').length) {
+
+			$(".ly-list-published").addClass("grid");
 
 			//changing list.ly widget header style
 			$(".ly-additem").removeClass("listly-expand");
@@ -96,6 +105,9 @@ $( window ).on( "load", function() {
 						});
 					}
 			});
+
+		}
+
 });
 
 

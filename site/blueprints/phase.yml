@@ -1,20 +1,29 @@
 title: Phase
-pages: 
-  template: 
+pages:
+  template:
     - beacon
+    - library
   hide: true
 files: false
 fields:
-  prevnext: 
+  prevnext:
     type: prevnext
   title:
     label: Title
     type:  text
     width: 1/2
-  target: 
+  target:
     label: Target/end date
     type: date
     width: 1/2
   mysubpagelist:
     label: Beacons
     type:  subpagelist
+    filter:
+      template: beacon
+
+  library:
+    label: Inspiration Library
+    type:  subpagelist
+    filter:
+      template: library

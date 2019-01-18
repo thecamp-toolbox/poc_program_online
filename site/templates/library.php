@@ -1,15 +1,10 @@
 <?php snippet('header') ?>
 
-<?php $prog = getProg($page);  ?>
-<?php $phases = $prog->children()->filterBy('template', 'phase') ?>
+<?php $prog = getProg($page); ?>
 <?php $team = $prog->children()->filterBy('template', 'team') ?>
+<?php $libraryID = $page->libraryID()->value; ?>
 
-	<?php
-	  $library = $prog->children()->filterBy('template', 'library')->first();
-		$libraryID = $library->libraryID()->value;
-	?>
-
-	<?= snippet('top-nav', array('prog'=>$prog, 'library'=>$library, 'team'=>$team)) ?>
+	<?= snippet('top-nav', array('prog'=>$prog, 'team'=>$team)) ?>
 
 			<div class="container-fluid bg-white">
 	        <div class="row row-height">

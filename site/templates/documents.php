@@ -14,7 +14,6 @@
 
         	<!-- content here -->
         	<div class="col-md-10 col-right">
-
 	            <section class="people">
                 <div class="container">
                     <div class="row">
