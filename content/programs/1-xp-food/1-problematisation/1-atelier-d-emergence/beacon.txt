@@ -1,8 +1,8 @@
-Title: Un super événement passé
+Title: Atelier d'émergence
 
 ----
 
-Target: 2018-11-13
+Target: 2018-07-02
 
 ----
 
@@ -22,4 +22,4 @@ Vita est illis semper in fuga uxoresque mercenariae conductae ad tempus ex pacto
 
 ----
 
-Team: nolwen-berthier, helene-michaud
+Team: nolwen-berthier, helene-micheau, bruno-isidri, claire-piecourt, charlotte-dekerf, corinne-feuillard, damien-verdier, eric-texier, laure-gaillard, laurence-finel, benoit-bailliart

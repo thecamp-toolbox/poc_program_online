@@ -31,7 +31,9 @@
 												<?php if (count($team->children()) > 0) : ?>
 	                                            	<li class="list-inline-item"><i class="fas fa-users mr-1"></i>	<?= count($team->children()); ?></li>
 												<?php endif; ?>
-												<li class="list-inline-item"><i class="fas fa-calendar-alt mr-1"></i>6</li>
+												<li class="list-inline-item"><i class="fas fa-calendar-alt mr-1"></i>
+													6
+												</li>
 	                                            <?php if ($prog->sdgs() != '') : ?>
 	                                            	<li class="list-inline-item">
 	                                            		<i class="fas fa-globe mr-1"></i>
@@ -67,10 +69,16 @@
 	                    <div class="row text-center">
 	                    	<?php foreach ($phases as $phase) : ?>
 		                        <div class="col mb-3">
-		                            <span>
-		                            	<span class="step-circle step-circle-sm <?php e(isPhaseOver($phase), 'bg-success') ?>"><?= $phase->num() ?></span>
-		                            	<?= $phase->title() ?>
-		                            </span>
+		                            	<h5>
+		                            		<span class="step-circle step-circle-sm <?php e(isPhaseOver($phase), 'bg-success') ?>">
+		                            			<?= $phase->num() ?>
+		                            		</span>
+		                            		<?= $phase->title() ?>
+		                            	</h5>
+		                            	<div class="pt-1"></div>
+		                            	<?php if ($phase->baseline() != '') : ?>
+		                            		<span><?= $phase->baseline() ?></span>
+		                            	<?php endif ?>
 		                            <br>
 		                            <small class="text-muted">
 		                            	<?php e(isPhaseOver($phase), 'Fini', 'Objectif') ?> :

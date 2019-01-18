@@ -16,6 +16,9 @@ fields:
     label: Target/end date
     type: date
     width: 1/2
+  baseline: 
+    label: Baseline 
+    type: text 
   mysubpagelist:
     label: Beacons
     type:  subpagelist
